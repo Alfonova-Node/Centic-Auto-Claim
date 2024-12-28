@@ -88,7 +88,7 @@ async function claimUsers(token, proxy = null) {
     const axiosInstance = createAxiosInstance(proxy);
     try {
         await axiosInstance.post(url, {
-            "referralCode": "eJwNwQkRACAIBMBKp4gMcXgzGF928TDILa2UcFikqKsjGtCUvS63y_j7xwuX"
+            "referralCode": "eJwNwQkRACAIBMBKxycQRwbJYHzdxQ1DHbOlgAyzOn2cA7X2GSXJqtj9AN-KCtA="
         }, {
             headers: {
                 'x-apikey': token,
